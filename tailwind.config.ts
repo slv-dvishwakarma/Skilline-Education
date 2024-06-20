@@ -13,6 +13,30 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: '#262626',
+        secondary: '#ff0',
+        tertiary: '#FFFFFF',
+        fourthly: "#171717",
+      },
+      keyframes: {
+        slideOut: {
+          from: {
+            transform: 'translateX(0)',
+          },
+          to: {
+            transform: 'translateX(-100%)',
+          },
+        },
+        slideIn: {
+          from: {
+            transform: 'translateX(-100%)',
+          },
+          to: {
+            transform: 'translateX(0)',
+          },
+        },
+      },
     },
   },
   plugins: [],

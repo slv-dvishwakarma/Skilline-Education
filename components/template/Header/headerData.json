@@ -1,0 +1,33 @@
+{
+    "logo": {
+        "title": "Skilline",
+        "logoLink": "/"
+    },
+    "navigation": [
+        {
+            "label": "Home",
+            "href": "/"
+        },
+        {
+            "label": "Problem & Solutions",
+            "href": "/problem-solutions"
+        },
+        {
+            "label": "Policies",
+            "href": "/policies"
+        },
+        {
+            "label": "Stories",
+            "href": "/stories"
+        },
+        {
+            "label": "Roadmap",
+            "href": "/roadmap"
+        },
+        {
+            "label": "Contact us",
+            "href": "/contact-us",
+            "button": true
+        }
+    ]
+}

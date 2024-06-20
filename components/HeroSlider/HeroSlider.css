@@ -1,0 +1,30 @@
+.custom-slick-slider .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-slick-slider .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li {
+  background: #FFFF00;
+  border-radius: 100px;
+  height: 8px;
+  transition: .5s;
+  width: 8px;
+}
+
+.slick-dots li.slick-active {
+  width: 62px;
+}
+
+.slick-dots li button:before {
+  content: '' !important;
+}

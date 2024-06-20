@@ -1,0 +1,10 @@
+{
+    "type": "Slider",
+    "props": {},
+    "content": [
+        "/slider/Hero-Banner_1.jpg",
+        "/slider/Hero-Banner_1.jpg",
+        "/slider/Hero-Banner_1.jpg",
+        "/slider/Hero-Banner_1.jpg"
+    ]
+}
