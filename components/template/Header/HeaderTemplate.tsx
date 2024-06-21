@@ -55,8 +55,8 @@ export const HeaderTemplate: React.FC<HeaderProps> = ({ logo, navigation }) => {
 
   return (
     <>
-      <header className="sticky mt-4 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full">
-        <nav className="relative max-w-[70rem] w-full bg-primary rounded-[28px] py-3 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto" aria-label="Global">
+      <header className="sticky mt-4 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full xl:px-[9%] lg:px-10 md:px-3 ">
+        <nav className="relative w-full bg-primary rounded-[28px] py-3 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto" aria-label="Global">
           <div className="flex items-center justify-between">
             <Link href={logo.logoLink} className="text-tertiary flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80" aria-label="Preline">
               <h1 className='text-[25px] font-extrabold'>{logo.title}</h1>

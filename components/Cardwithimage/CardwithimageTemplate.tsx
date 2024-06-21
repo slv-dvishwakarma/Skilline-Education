@@ -26,8 +26,8 @@ interface CardwithimageTemplateProps {
 
 export const CardwithimageTemplate: React.FC<CardwithimageTemplateProps> = ({ topbar, card, staticcontent }) => {
   return (
-    <div className="py-10 lg:pt-20">
-      <div className="max-w-3xl mb-10 lg:mb-14">
+    <div className="py-10 lg:pt-20 ">
+      <div className="mb-10 lg:mb-14">
         <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">{topbar.title}</h2>
         <p className="mt-1 text-neutral-400">{topbar.description}</p>
       </div>
@@ -43,9 +43,9 @@ export const CardwithimageTemplate: React.FC<CardwithimageTemplateProps> = ({ to
           </div>
           {card.map((item, index) => (
           <div key={index} className="flex gap-x-5 ms-1">
-            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-secondary">
               <div className="relative z-10 size-8 flex justify-center items-center">
-                <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                <span className="flex flex-shrink-0 justify-center items-center size-8 border border-secondary text-secondary font-semibold text-xs uppercase rounded-full">
                   {index + 1}
                 </span>
               </div>

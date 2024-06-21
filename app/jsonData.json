@@ -42,5 +42,34 @@
                 "image": "/about-skillines.jpg"
             }
         }
+    },
+    "client": {
+        "type": "Client",
+        "props": {},
+        "content": {
+            "title": "Partnerships",
+            "logo": [
+                {
+                    "image": "",
+                    "link": "/"
+                },
+                {
+                    "image": "",
+                    "link": "/"
+                },
+                {
+                    "image": "",
+                    "link": "/"
+                },
+                {
+                    "image": "",
+                    "link": "/"
+                },
+                {
+                    "image": "",
+                    "link": "/"
+                }
+            ]
+        }
     }
 }
