@@ -180,5 +180,26 @@
                 }
             ]
         }
+    },
+    "states": {
+        "type": "Team_Member",
+        "props": {},
+        "content": [
+            {
+                "icon": "partner",
+                "rate": "30 +",
+                "label": "Skilline partners"
+            },
+            {
+                "icon": "users",
+                "rate": "85%",
+                "label": "Happy customers"
+            },
+            {
+                "icon": "wallet",
+                "rate": "$55M+",
+                "label": "Ads managed yearly"
+            }
+        ]
     }
 }

@@ -19,13 +19,13 @@ const Page = () => {
         <Cardwithimage topbar={jsonData.cardwithimage.content.topbar} card={jsonData.cardwithimage.content.card} staticcontent={jsonData.cardwithimage.content.staticcontent} />
       </ParentContainer>
       <ParentContainer>
-        <CaseStories successtitle={jsonData.success_stories.content.successtitle} stories={jsonData.success_stories.content.stories}/>
+        <CaseStories successtitle={jsonData.success_stories.content.successtitle} stories={jsonData.success_stories.content.stories} />
       </ParentContainer>
       <ParentContainer>
-        <TwoSideLayout topbar={jsonData.Team_Member.content.topbar} member={jsonData.Team_Member.content.member}/>
+        <TwoSideLayout topbar={jsonData.Team_Member.content.topbar} member={jsonData.Team_Member.content.member} />
       </ParentContainer>
       <ParentContainer>
-        <States />
+        <States states={jsonData.states.content}/>
       </ParentContainer>
     </>
   )

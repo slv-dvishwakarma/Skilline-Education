@@ -41,10 +41,10 @@ export const TwoSideLayoutTemplate: React.FC<TwoSideLayoutTemplateProps> = ({ to
                     <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">{topbar.title}</h2>
                     <p className="mt-1 text-neutral-400">{topbar.description}</p>
                 </div>
-                <Slider className="custom-slick-slider mt-4 focus:outline-none" {...settings}>
+                <Slider className="testimonial-slick-slider mt-4 focus:outline-none" {...settings}>
                     {member.map((item, index) => (
                         <div key={index} className='slider-setting'>
-                            <div className='w-6/12'>
+                            <div className='xl:w-6/12 lg:w-6/12 md:w-6/12 w-full'>
                                 <blockquote>
                                     <p className="font-medium text-xl text-white md:text-2xl md:leading-normal xl:text-3xl xl:leading-normal">{item.quote}</p>
                                     <footer className="mt-6">
@@ -60,7 +60,7 @@ export const TwoSideLayoutTemplate: React.FC<TwoSideLayoutTemplateProps> = ({ to
                                     </footer>
                                 </blockquote>
                             </div>
-                            <div className="xl:block lg:block md:block hidden mb-24 md:mb-0 w-6/12">
+                            <div className="xl:block lg:block md:block hidden mb-24 md:mb-0 xl:w-6/12 lg:w-6/12 md:w-6/12 w-full">
                                 <Image className='float-right' src={item.image} alt={item.name} width={400} height={400} />
                             </div>
                         </div>
