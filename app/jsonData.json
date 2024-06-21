@@ -1,10 +1,45 @@
 {
-    "type": "Slider",
-    "props": {},
-    "content": [
-        "/slider/Hero-Banner_1.jpg",
-        "/slider/Hero-Banner_1.jpg",
-        "/slider/Hero-Banner_1.jpg",
-        "/slider/Hero-Banner_1.jpg"
-    ]
+    "slider": {
+        "type": "Slider",
+        "props": {},
+        "content": [
+            "/slider/Hero-Banner_1.jpg",
+            "/slider/Hero-Banner_1.jpg",
+            "/slider/Hero-Banner_1.jpg",
+            "/slider/Hero-Banner_1.jpg"
+        ]
+    },
+    "cardwithimage": {
+        "type": "cardwithimage",
+        "props": {},
+        "content": {
+            "topbar": {
+                "title": "About Skilline",
+                "description": "Skilline is transforming education by providing affordable, AI-powered training courses tailored to the needs of rural youth, job seekers, and corporate employees, ensuring alignment with job market demands."
+            },
+            "card": [
+                {
+                    "heading": "Identify Key Themes and Keywords:",
+                    "details": "Focus on 'Skilline,' 'AI-powered,' 'training courses,' 'rural youth,' 'job seekers.'"
+                },
+                {
+                    "heading": "Highlight Unique Features and Goals:",
+                    "details": "Emphasize 'gamification,' 'skill gap bridging,' 'economic independence promotion.'"
+                },
+                {
+                    "heading": "Note Specific Initiatives and Modules:",
+                    "details": "Include 'Vedic Education,' 'Cleanliness Certification,' 'Government Policy Awareness.'"
+                },
+                {
+                    "heading": "Emphasize Challenges and Solutions:",
+                    "details": "Address 'expensive training,' 'geographical constraints,' 'job-market alignment solutions.'"
+                }
+            ],
+            "staticcontent": {
+                "stepstring": "STEPS",
+                "phonestring": "Schedule a call",
+                "phonenumber": "tel: 12345 67890"
+            }
+        }
+    }
 }

@@ -46,12 +46,12 @@ export const HeaderTemplate: React.FC<HeaderProps> = ({ logo, navigation }) => {
 
   const linkClasses = (menu: NavigationItem) =>
     `text-sm md:py-4 ${!menu.button && pathName === menu.href ? "text-secondary" : "text-tertiary"} 
-    ${menu.button ? 'text-[#000000] px-3 flex justify-center items-center bg-secondary font-medium text-sm rounded-full focus:outline-none h-[38px]' : ''}`;
+    ${menu.button ? 'text-issue px-3 flex justify-center items-center bg-secondary font-medium text-sm rounded-full focus:outline-none h-[38px]' : ''}`;
 
   const mobileLinkClasses = (menu: NavigationItem) =>
     `text-sm md:py-4 flex items-center justify-between
     ${!menu.button && pathName === menu.href ? "text-secondary" : "text-tertiary"} 
-    ${menu.button ? 'text-[#000000] px-3 flex justify-center items-center bg-secondary font-medium text-sm rounded-full focus:outline-none h-[38px]' : ''}`;
+    ${menu.button ? 'text-issue px-3 flex justify-center items-center bg-secondary font-medium text-sm rounded-full focus:outline-none h-[38px]' : ''}`;
 
   return (
     <>

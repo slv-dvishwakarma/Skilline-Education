@@ -11,7 +11,7 @@ export const ParentContainer = ({ children, className, style }: Props) => {
   return (
     <div
       className={classNames(
-        "max-w-[70rem] w-full m-auto",
+        "max-w-[70rem] w-full m-auto xl:px-0 lg:px-3 md:px-3 px-3",
         className
       )}
       style={style} 

@@ -36,10 +36,10 @@ export const HeroSlider: React.FC<SliderProps> = ({ images }) => {
   };
 
   return (
-    <Slider className="custom-slick-slider mt-4 rounded-[30px]" {...settings}>
+    <Slider className="custom-slick-slider mt-4 rounded-[30px] focus:outline-none" {...settings}>
       {images.map((item, index) => (
-        <div key={index} className='hero-slider'>
-          <Image className='rounded-[30px] w-full h-[540px] object-cover' src={item} alt={`Slide ${index + 1}`} width={1916} height={690} />
+        <div key={index} className='hero-slider focus:outline-none rounded-[30px]'>
+          <Image className='rounded-[30px] w-full xl:h-[540px] lg:h-[540px] md:h-[540px] h-[300px] object-cover' src={item} alt={`Slide ${index + 1}`} width={1916} height={690} />
         </div>
       ))}
     </Slider>

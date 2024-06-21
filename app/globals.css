@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-issue {
+    color: #171717 !important;
+}
