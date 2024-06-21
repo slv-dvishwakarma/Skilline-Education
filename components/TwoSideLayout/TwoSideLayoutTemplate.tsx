@@ -61,7 +61,7 @@ export const TwoSideLayoutTemplate: React.FC<TwoSideLayoutTemplateProps> = ({ to
                                 </blockquote>
                             </div>
                             <div className="xl:block lg:block md:block hidden mb-24 md:mb-0 xl:w-6/12 lg:w-6/12 md:w-6/12 w-full">
-                                <Image className='float-right' src={item.image} alt={item.name} width={400} height={400} />
+                                <Image className='float-right rounded-[10px]' src={item.image} alt={item.name} width={400} height={400} />
                             </div>
                         </div>
                     ))}
