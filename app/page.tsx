@@ -5,6 +5,8 @@ import { ParentContainer } from '@/components/ParentContainer'
 import { Cardwithimage } from '@/components/Cardwithimage'
 import { Client } from '@/components/Client'
 import { CaseStories } from '@/components/CaseStories'
+import { States } from '@/components/States'
+import { TwoSideLayout } from '@/components/TwoSideLayout'
 
 const Page = () => {
   return (
@@ -18,6 +20,12 @@ const Page = () => {
       </ParentContainer>
       <ParentContainer>
         <CaseStories successtitle={jsonData.success_stories.content.successtitle} stories={jsonData.success_stories.content.stories}/>
+      </ParentContainer>
+      <ParentContainer>
+        <TwoSideLayout topbar={jsonData.Team_Member.content.topbar} member={jsonData.Team_Member.content.member}/>
+      </ParentContainer>
+      <ParentContainer>
+        <States />
       </ParentContainer>
     </>
   )

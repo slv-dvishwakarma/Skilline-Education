@@ -15,7 +15,7 @@
         "content": {
             "topbar": {
                 "title": "About Skilline",
-                "description": "Skilline is transforming education by providing affordable, AI-powered training courses tailored to the needs of rural youth, job seekers, and corporate employees, ensuring alignment with job market demands."
+                "description": "We are a dedicated team of experienced engineers specializing in AI-driven systems and delivering impactful results. With a proven track record of guiding businesses to success, including contributions to companies valued over $100 million, we bring extensive cultural insights and deep industry expertise to every project, both nationally and internationally."
             },
             "card": [
                 {
@@ -116,6 +116,67 @@
                     "title": "Avinesh",
                     "state": "Hyderabad",
                     "description": "He had an 8-year gap and was in an operations job in Singapore. Our offline training course gave him the skills and confidence to succeed in the tech industry."
+                }
+            ]
+        }
+    },
+    "Team_Member": {
+        "type": "Team_Member",
+        "props": {},
+        "content": {
+            "topbar": {
+                "title": "Team Members:",
+                "description": "Our core team excels in strategic advising, portfolio building, and AI-driven solutions. With expertise spanning business, IT, data engineering, UI development, and DevOps, we drive impactful results for companies globally, leveraging deep industry knowledge and extensive cultural insights to guide businesses to success."
+            },
+            "member": [
+                {
+                    "name": "Ashutosh Taiwal",
+                    "post": "DevOps Company Owner",
+                    "image": "/Members/Ashutosh-Taiwal.jpg",
+                    "quote": "To say that switching to Preline has been life-changing is an understatement. My business has tripled since then."
+                },
+                {
+                    "name": "Raman Rajpal",
+                    "post": "Manager at Amazon India",
+                    "image": "/Members/Raman-Rajpal.jpg",
+                    "quote": "To say that switching to Preline has been life-changing is an understatement. My business has tripled since then."
+                },
+                {
+                    "name": "Hansi Malhotra",
+                    "post": "(Subject | Industry | Impact)",
+                    "image": "/Members/Ashutosh-Taiwal.jpg",
+                    "quote": "To say that switching to Preline has been life-changing is an understatement. My business has tripled since then."
+                },
+                {
+                    "name": "Monika Kulshreshtha",
+                    "post": "serial entrepreneur and Business & IT Consultant",
+                    "image": "/Members/Ashutosh-Taiwal.jpg",
+                    "quote": "To say that switching to Preline has been life-changing is an understatement. My business has tripled since then."
+                },
+                {
+                    "name": "Upal Roy",
+                    "post": "Bengal",
+                    "image": "/Members/Ashutosh-Taiwal.jpg",
+                    "quote": "To say that switching to Preline has been life-changing is an understatement. My business has tripled since then."
+                },
+                
+                {
+                    "name": "Naganath Tamil",
+                    "post": "UI React specialist from the USA",
+                    "image": "/Members/Raman-Rajpal.jpg",
+                    "quote": "To say that switching to Preline has been life-changing is an understatement. My business has tripled since then."
+                },
+                {
+                    "name": "Debashish Sahoo",
+                    "post": "Specializing in Data Engineering in Assam",
+                    "image": "/Members/Raman-Rajpal.jpg",
+                    "quote": "To say that switching to Preline has been life-changing is an understatement. My business has tripled since then."
+                },
+                {
+                    "name": "Neelam Pal",
+                    "post": "Director Payments & Risk | Airbnb",
+                    "image": "/Members/Ashutosh-Taiwal.jpg",
+                    "quote": "To say that switching to Preline has been life-changing is an understatement. My business has tripled since then."
                 }
             ]
         }

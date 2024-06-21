@@ -5,3 +5,9 @@
 .text-issue {
     color: #171717 !important;
 }
+
+.slider-setting {
+    display: flex !important;
+    align-items: center;
+    gap: 50px;
+}

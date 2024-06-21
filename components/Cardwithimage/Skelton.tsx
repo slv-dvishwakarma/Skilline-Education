@@ -3,11 +3,12 @@ export const Skelton = () => {
         <>
             <div className="py-10 lg:pt-20 animate-pulse">
                 <div className="max-w-3xl mb-10 lg:mb-14 space-y-5">
-                    <div className="bg-slate-700 h-[22px] xl:w-[240px] lg:w-[240px] md:w-[240px] w-full"></div>
+                    <div className="bg-slate-700 h-[30px] xl:w-[240px] lg:w-[240px] md:w-[240px] w-full"></div>
                     <div className="space-y-2">
-                        <div className="bg-slate-700 h-[22px] xl:w-[764px] lg:w-[764px] md:w-full w-full"></div>
-                        <div className="bg-slate-700 h-[22px] xl:w-[726px] lg:w-[726px] md:w-full w-full"></div>
-                        <div className="bg-slate-700 h-[22px] xl:w-[80px] lg:w-[80px] md:w-[80px] w-full"></div>
+                        <div className="bg-slate-700 h-[10px] xl:w-[764px] lg:w-[764px] md:w-full w-full"></div>
+                        <div className="bg-slate-700 h-[10px] xl:w-[764px] lg:w-[764px] md:w-full w-full"></div>
+                        <div className="bg-slate-700 h-[10px] xl:w-[764px] lg:w-[764px] md:w-full w-full"></div>
+                        <div className="bg-slate-700 h-[10px] xl:w-[764px] lg:w-[764px] md:w-full w-full"></div>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
