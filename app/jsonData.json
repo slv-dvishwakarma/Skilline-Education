@@ -71,5 +71,53 @@
                 }
             ]
         }
+    },
+    "success_stories": {
+        "type": "success_stories",
+        "props": {},
+        "content": {
+            "successtitle": {
+                "title": "Success stories",
+                "description": "Skilline revolutionizes Bharat's education with affordable, AI-driven, job-guaranteed courses in technology and high-demand sectors, empowering learners and fostering national skill development."
+            },
+            "stories": [
+                {
+                    "image": "/placehplder.png",
+                    "title": "Maharaju",
+                    "state": "Hyderabad",
+                    "description": "He is previously in data entry at Genpact, tripled his salary within a year after our offline training and is now a skilled React developer at XULifestyle"
+                },
+                {
+                    "image": "/placehplder.png",
+                    "title": "Kishore",
+                    "state": "Andhra Pradesh",
+                    "description": "He had a 2-year gap post-graduation and worked in operations. Our offline training equipped him with programming skills, and he now excels at Mindmaster Singapore."
+                },
+                {
+                    "image": "/placehplder.png",
+                    "title": "Sonu Verma",
+                    "state": "Indore",
+                    "description": "He is the son of a laborer, couldn't finish his bachelor’s degree. After our offline training, he became a full-stack developer, creating top-tier document processing modules."
+                },
+                {
+                    "image": "/placehplder.png",
+                    "title": "Dilip Vishwakarma",
+                    "state": "Indore",
+                    "description": "He had limited opportunities and worked with outdated technology. Our offline training upskilled him, making him one of the industry's top talents."
+                },
+                {
+                    "image": "/placehplder.png",
+                    "title": "Deepti",
+                    "state": "Hyderabad",
+                    "description": "She is a housewife with a 10-year gap, gained confidence and became a proficient Python developer through our offline training program."
+                },
+                {
+                    "image": "/placehplder.png",
+                    "title": "Avinesh",
+                    "state": "Hyderabad",
+                    "description": "He had an 8-year gap and was in an operations job in Singapore. Our offline training course gave him the skills and confidence to succeed in the tech industry."
+                }
+            ]
+        }
     }
 }

@@ -29,7 +29,7 @@ export const CardwithimageTemplate: React.FC<CardwithimageTemplateProps> = ({ to
     <div className="py-10 lg:pt-20 ">
       <div className="mb-10 lg:mb-14">
         <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">{topbar.title}</h2>
-        <p className="mt-1 text-neutral-400">{topbar.description}</p>
+        <p className="mt-1 text-neutral-400 xl:w-[70%] lg:w-[70%] md:w-full w-full">{topbar.description}</p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
         <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
