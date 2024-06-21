@@ -23,7 +23,7 @@ export const FooterTemplate = () => {
     </svg>
 
     <div className="relative z-10">
-      <div className="w-full max-w-5xl px-4 xl:px-0 py-10 lg:pt-16 mx-auto">
+      <div className="w-full  xl:px-[9%] lg:px-10 md:px-3 px-3 py-10 mx-auto">
         <div className="inline-flex items-center">
         
           <h1 className='text-[25px] font-extrabold text-white'>Skilline</h1>
