@@ -38,7 +38,8 @@
             "staticcontent": {
                 "stepstring": "STEPS",
                 "phonestring": "Schedule a call",
-                "phonenumber": "tel: 12345 67890"
+                "phonenumber": "tel: 12345 67890",
+                "image": "/about-skillines.jpg"
             }
         }
     }

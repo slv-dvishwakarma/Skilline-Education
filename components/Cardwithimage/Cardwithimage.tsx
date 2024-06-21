@@ -17,6 +17,7 @@ interface StaticItem {
   stepstring: string;
   phonestring: string;
   phonenumber: string;
+  image: string;
 }
 
 interface CardwithimageProps {

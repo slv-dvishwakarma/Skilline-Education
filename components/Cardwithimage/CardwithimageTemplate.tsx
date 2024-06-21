@@ -15,6 +15,7 @@ interface StaticItem {
   stepstring: string;
   phonestring: string;
   phonenumber: string;
+  image: string;
 }
 
 interface CardwithimageTemplateProps {
@@ -32,7 +33,7 @@ export const CardwithimageTemplate: React.FC<CardwithimageTemplateProps> = ({ to
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
         <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
-          <Image className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1587614203976-365c74645e83?q=80&w=480&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Description" />
+          <Image className="w-full object-cover rounded-xl" src={staticcontent.image} alt={topbar.title} width={480} height={600} />
         </div>
         <div>
           <div className="mb-4">
