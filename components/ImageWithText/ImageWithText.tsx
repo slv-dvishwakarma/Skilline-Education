@@ -16,10 +16,11 @@ interface ImageWithTextItem {
 
 interface ImageWithTextProps {
   imagetext: ImageWithTextItem;
+  order: number
 }
 
 
-export const ImageWithText: React.FC<ImageWithTextProps> = ({ imagetext}) => {
+export const ImageWithText: React.FC<ImageWithTextProps> = ({ imagetext, order}) => {
 
   const [loading, setLoading] = useState(true);
 
@@ -34,6 +35,6 @@ export const ImageWithText: React.FC<ImageWithTextProps> = ({ imagetext}) => {
   }
 
   return (
-    <ImageWithTextTemplate imagetext={imagetext}/>
+    <ImageWithTextTemplate imagetext={imagetext} order={order}/>
   )
 }

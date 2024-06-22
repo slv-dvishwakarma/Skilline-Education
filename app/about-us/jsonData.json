@@ -27,7 +27,9 @@
     },
     "imagewithtext": {
         "type": "imagewithtext",
-        "props": {},
+        "props": {
+            "order": 1
+        },
         "content": {
             "image": "/metric_banner.jpg",
             "title": "Do you believe in Atmanirbhar Bharat and want to be a part of next Big data AI-powered EdTech startup?",

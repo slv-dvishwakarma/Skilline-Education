@@ -24,5 +24,81 @@
                 }
             ]
         }
+    },
+    "imagewithtext_economy": {
+        "type": "imagewithtext",
+        "props": {
+            "order": 1
+        },
+        "content": {
+            "image": "/pillar/Economy.jpg",
+            "title": "Atma-Nirbhar 5 Pillars",
+            "text": {
+                "heading": "Economy",
+                "label": [
+                    "Skilline aims to foster national self-reliance and economic growth through upskilling, improving employment and self-employment opportunities, and establishing itself as a global brand."
+                ]
+            }
+        }
+    },
+    "imagewithtext_infrastructure": {
+        "type": "imagewithtext",
+        "props": {
+            "order": 2
+        },
+        "content": {
+            "image": "/metric_banner.jpg",
+            "text": {
+                "heading": "Infrastructure",
+                "label": [
+                    "Skilline leverages the IndiaAI Mission, utilizing AI and Gen AI servers for knowledge base ingestion and tailored education with scalability. Our platform aims to boost inclusion, innovation, and social impact, reinforcing India's global presence. Our vision is to establish a self-sustaining Indigenous University, transforming learning."
+                ]
+            }
+        }
+    },
+    "imagewithtext_system": {
+        "type": "imagewithtext",
+        "props": {
+            "order": 1
+        },
+        "content": {
+            "image": "/metric_banner.jpg",
+            "text": {
+                "heading": "System",
+                "label": [
+                    "Skilline will serve as an ecosystem and energy source for learning in the nation’s languages, utilizing AI and Gen AI server foundations for knowledge base ingestion. System intelligence caters to unique educational needs, ensuring that future generations benefit from today's innovations."
+                ]
+            }
+        }
+    },
+    "imagewithtext_demography": {
+        "type": "imagewithtext",
+        "props": {
+            "order": 2
+        },
+        "content": {
+            "image": "/metric_banner.jpg",
+            "text": {
+                "heading": "Vibrant Demography",
+                "label": [
+                    "Skilline, a national education platform facilitating learning in multiple languages, caters to diverse groups including youth, office workers, rural residents, corporates, manufacturing hubs, government, and policymakers. We are already partnering with award-winning Australian businesses and certified Australian entrepreneurs for global expansion. Additionally, we have worked with housewives, rural residents, less skilled workforce, and college graduates to impart skills and boost their confidence in Telugu, Bengali, and Hindi languages."
+                ]
+            }
+        }
+    },
+    "imagewithtext_demand": {
+        "type": "imagewithtext",
+        "props": {
+            "order": 1
+        },
+        "content": {
+            "image": "/metric_banner.jpg",
+            "text": {
+                "heading": "Demand",
+                "label": [
+                    "Skilline is a market-leading platform for on-demand skills and training courses, supporting our nation in acquiring the necessary skills, qualifications, and experience for employment or self-employment. We aspire to be the nation’s premier guide for discovering, assessing, and enrolling in interactive, personalized courses on demand."
+                ]
+            }
+        }
     }
 }

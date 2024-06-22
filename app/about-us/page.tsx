@@ -10,7 +10,7 @@ const Page = () => {
     <>
     <PageBanner banner={jsonData.banner.content}/>
     <ParentContainer>
-      <ImageWithText imagetext={jsonData.imagewithtext.content}/>
+      <ImageWithText imagetext={jsonData.imagewithtext.content} order={jsonData.imagewithtext.props.order}/>
     </ParentContainer>
     <ParentContainer>
       <Blog articles={jsonData.blog.content}/>
