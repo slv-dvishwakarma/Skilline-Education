@@ -11,7 +11,7 @@ import { TwoSideLayout } from '@/components/TwoSideLayout'
 const Page = () => {
   return (
     <>
-      <ParentContainer>
+      <ParentContainer >
         <HeroSlider images={jsonData.slider.content} />
       </ParentContainer>
       <Client title={jsonData.client.content.title} logo={jsonData.client.content.logo} />

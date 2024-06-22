@@ -6,13 +6,13 @@ export const Skelton = () => {
                 <div className="flex items-center justify-between ">
                     <div className="bg-slate-700 h-[22px] w-[90px]"></div> 
                 </div>
-                <div className="flex items-center justify-between w-[574px]">
-                    <div className="bg-slate-700 h-[10px] w-[90px]"></div>
-                    <div className="bg-slate-700 h-[10px] w-[90px]"></div>
-                    <div className="bg-slate-700 h-[10px] w-[90px]"></div>
-                    <div className="bg-slate-700 h-[10px] w-[90px]"></div>
-                    <div className="bg-slate-700 h-[10px] w-[90px]"></div>
-                    <div className="bg-slate-700 h-[10px] w-[90px]"></div>
+                <div className="flex items-center justify-between w-[500px]">
+                    <div className="bg-slate-700 h-[10px] w-[60px]"></div>
+                    <div className="bg-slate-700 h-[10px] w-[60px]"></div>
+                    <div className="bg-slate-700 h-[10px] w-[60px]"></div>
+                    <div className="bg-slate-700 h-[10px] w-[60px]"></div>
+                    <div className="bg-slate-700 h-[10px] w-[60px]"></div>
+                    <div className="bg-slate-700 h-[10px] w-[60px]"></div>
                 </div>
             </nav>
         </header>

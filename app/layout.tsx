@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Skilline Education",
-  description: "Skilline is transforming education by providing affordable, AI-powered training courses tailored to the needs of rural youth, job seekers, and corporate employees, ensuring alignment with job market demands.",
+  description: "Empowering Minds: AI-Driven Education, Guaranteeing Fulfilling Careers",
 };
 
 export default function RootLayout({

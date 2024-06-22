@@ -1,0 +1,44 @@
+{
+    "banner": {
+        "type": "banner",
+        "props": {},
+        "content": {
+            "title": "About Skilline",
+            "label": "We are a dedicated team of accomplished engineers specializing in AI-driven systems, committed to delivering impactful results. Our proven track record includes guiding businesses to success, with contributions to companies valued at over $100 million. We bring extensive cultural insights, both nationally and internationally, and deep industry expertise to every project.",
+            "breadrumb": {
+                "pagetitle": "About Us",
+                "Pageurl": "/about-us"
+            },
+            "social": [
+                {
+                    "name": "facebook",
+                    "url": "https://www.facebook.com/"
+                },
+                {
+                    "name": "instagram",
+                    "url": "https://www.instagram.com/"
+                },
+                {
+                    "name": "twitter",
+                    "url": "https://x.com/"
+                }
+            ]
+        }
+    },
+    "imagewithtext": {
+        "type": "imagewithtext",
+        "props": {},
+        "content": {
+            "image": "/metric_banner.jpg",
+            "title": "Do you believe in Atmanirbhar Bharat and want to be a part of next Big data AI-powered EdTech startup?",
+            "text": {
+                "heading": "Mission / Vision",
+                "label": [
+                    "Skilline is committed to transforming India's education landscape with an affordable, AI-driven platform. Our 100% job-guaranteed training courses in technology, manufacturing, and high-demand sectors empower diverse learners, promoting sustainable employment and self-employment. We are dedicated to fostering robust national skill development.",
+                    "Skilline's mission is driven by a commitment to bridging skill gaps, empowering rural youth, and advancing the goals of 'Aatmanirbhar Bharat.' Through strategic collaborations with institutions and companies, we work to enhance education policies and governance.",
+                    "Our vision is to create personalized learning experiences that unlock individual potential, drive nationwide prosperity and growth, and establish Skilline as a globally recognized brand."
+                ]
+            }
+        }
+    }
+}
