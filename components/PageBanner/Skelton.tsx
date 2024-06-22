@@ -19,7 +19,7 @@ export const Skelton = () => {
       <div className="bg-slate-700 h-[12px] w-full"></div>
       </div>
       <div className='social pt-10'>
-        <ul className='flex w-[30%] justify-between m-auto'>
+        <ul className='flex xl:w-[30%] lg:w-[30%] md:w-[30%] w-[50%] justify-between m-auto'>
         <div className="bg-slate-700 h-[35px] w-[35px] rounded-full"></div>
         <div className="bg-slate-700 h-[35px] w-[35px] rounded-full"></div>
         <div className="bg-slate-700 h-[35px] w-[35px] rounded-full"></div>

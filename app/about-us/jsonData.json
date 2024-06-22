@@ -40,5 +40,29 @@
                 ]
             }
         }
+    },
+    "blog": {
+       "type": "blog",
+        "props": {},
+        "content": {
+            "title": "News & Article",
+            "article": [
+                {
+                    "image": "/blog/Enhancing-Education-Policy-and-Governance.jpg",
+                    "blog_title": "Empowering Rural Youth for a Better Tomorrow",
+                    "short_des": "This blog explores how Skilline is addressing the skill gap in rural areas through innovative, AI-driven training programs. Learn about the transformative impact on communities and how we're empowering youth to achieve sustainable employment and self-employment."
+                },
+                {
+                    "image": "/blog/Skilline’s-Role-in-Building-a-Self-Reliant-India.jpg",
+                    "blog_title": "Skilline’s Role in Building a Self-Reliant India",
+                    "short_des": "Discover how Skilline contributes to the Aatmanirbhar Bharat initiative by providing job-guaranteed courses in high-demand sectors. We delve into our strategic collaborations with institutions and companies that enhance education policies and governance."
+                },
+                {
+                    "image": "/blog/Enhancing-Education-Policy-and-Governance.jpg",
+                    "blog_title": "Unlocking Potential and Driving National Growth",
+                    "short_des": "This blog discusses Skilline’s vision of creating personalized learning experiences that help individuals reach their full potential. See how our approach is fostering nationwide prosperity and setting the stage for Skilline to become a global brand."
+                }
+            ]
+        } 
     }
 }

@@ -1,0 +1,28 @@
+{
+    "banner": {
+        "type": "banner",
+        "props": {},
+        "content": {
+            "title": "Contact Us 24/7",
+            "label": "We are a dedicated team of accomplished engineers specializing in AI-driven systems, committed to delivering impactful results. Our proven track record includes guiding businesses to success, with contributions to companies valued at over $100 million. We bring extensive cultural insights, both nationally and internationally, and deep industry expertise to every project.",
+            "breadrumb": {
+                "pagetitle": "Contact us",
+                "Pageurl": "/contact-us"
+            },
+            "social": [
+                {
+                    "name": "facebook",
+                    "url": "https://www.facebook.com/"
+                },
+                {
+                    "name": "instagram",
+                    "url": "https://www.instagram.com/"
+                },
+                {
+                    "name": "twitter",
+                    "url": "https://x.com/"
+                }
+            ]
+        }
+    }
+}
